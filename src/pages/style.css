@@ -1,0 +1,48 @@
+.main_content {
+    margin-left: 21.5vw;
+    margin-top: -90vh;
+    float: left;
+}
+.main_content h2 {
+    margin-bottom: 3.5rem;
+    margin-left: 25vw;
+}
+
+/* BookAppointment page */
+.main_content .booking_form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-left: 18vw;
+}
+.main_content .booking_form .input_box {
+    width: 35vw;
+}
+.main_content .booking_form .time_slots {
+    width: 35vw;
+}
+.main_content .booking_form .time_slots label {
+    display: block;
+    margin-bottom: 0.8rem;
+}
+.main_content .booking_form .time_slots button {
+    margin-right: 0.7rem;
+    margin-bottom: 0.7rem;
+} 
+
+/* Profile page  */
+.main_content .profile_section {
+    margin-left: 4vw;
+}
+.main_content .profile_section tbody {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.2rem;
+}
+.main_content .profile_section tbody tr td {
+    font-size: 1.2rem;
+}
+.main_content .profile_section tbody tr .title {
+    font-weight: 600;
+    padding-right: 1rem;
+}

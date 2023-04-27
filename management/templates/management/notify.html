@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notification</title>
+</head>
+<body>
+    <div style="background-color: #E1F5FE; font-family: sans-serif; padding: 1.9rem 5%;">
+        <div style="background-color: #FFF; padding: 0.4rem 2% 1rem 2%;">
+            <h1 style="color: #0288D1; font-size: 2rem; text-align: center;">{{ site_name }}</h1>
+            <div style="padding-top: 0.5rem; padding-bottom: 0.5rem;">
+                <p style="color: #000; font-size: 1rem; font-family: sans-serif;">Sir,</p>
+                <p style="color: #000; font-size: 1rem; font-family: sans-serif; line-height: 1.6rem;">Your appointment information is below.</p>
+                <p style="color: #000; font-size: 1rem; font-family: sans-serif;">Appointment ID: {{ appointment.identifying_number }}</p>
+                <p style="color: #000; font-size: 1rem; font-family: sans-serif;">Doctor: {{ appointment.doctor.user.first_name }} {{ appointment.doctor.user.last_name }}</p>
+                <p style="color: #000; font-size: 1rem; font-family: sans-serif;">Please visit your doctor on {{ appointment.start_time }} at {{ appointment.date }}</p>
+            </div>
+            <div>
+                <p style="font-size: 1rem; margin-bottom: 0.5rem;">Sincerely,</p>
+                <p style="font-size: 1rem; margin-top: 0;">The {{ site_name }} Team</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

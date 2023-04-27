@@ -1,0 +1,28 @@
+.side_bar {
+    background-color: #23AF9B;
+    min-height: 94vh;
+    width: 19vw;
+}
+.side_bar ul {
+    list-style-type: none;
+    padding-top: 1.5rem;
+    padding-left: 0;
+}
+.side_bar ul li {
+    padding-left: 1.4rem;
+    padding-top: 0.64rem;
+    padding-bottom: 0.64rem;
+}
+.side_bar ul li:hover {
+    background-color: #136d5f;
+}
+.side_bar ul li a {
+    color: #FFF;
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 0.4rem 2vw 0.4rem 0rem;
+}
+.side_bar ul li a:hover {
+    color: #e0f2ef;
+    cursor: pointer;
+}
