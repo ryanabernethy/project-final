@@ -23,7 +23,7 @@ const Header = ({ isAuthenticated, user, logout, notification }) => {
   return (
     <Navbar variant="dark" style={{backgroundColor: '#237DAF', height: '4rem'}} expand="lg">
       <Container fluid>
-        <Navbar.Brand href="" style={{marginLeft: '2vw'}}>MedicalBooking101</Navbar.Brand>
+        <Navbar.Brand href="" style={{marginLeft: '2vw'}}>MedicalBooking</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbar-dark-example" />
         <Navbar.Collapse id="navbar-dark-example">
           <Nav style={{marginLeft: 'auto', marginRight: '8vw'}}>
